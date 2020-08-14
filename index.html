@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <title>TODOs</title>
+</head>
+<body>
+  <div class="container">
+    <div class="main-text">
+      <h2>Please enter To-Do!!</h2>
+    </div>
+    <form class="usr-form" id="usr-form">
+      <input type="text" name="name" placeholder="Enter to-do" id="name_input" class="in-name">
+      <input type="submit" id="submit-btn" class="btn" value="Submit">
+    </form>
+    <div class="errorBlock" hidden>
+      <p class="errormsg"></p>
+    </div>
+    <div id="output">
+      <ul id="toDoList"></ul>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

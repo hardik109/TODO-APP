@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #b3b3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  
+}
+
+.in-name {
+  width: 225px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  width: 110px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background:  #ff99c2;
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.bottom-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#toDoList {
+  margin-top: 30px;
+  height: 200px;
+  overflow-y:auto;
+}
+
+
+.item {
+  padding : 10px;
+  background: #ffcc99;
+  list-style: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.errorBlock{
+  margin-top: 15px;
+  background-color: #ff9999;
+  border-radius: 10px;
+}
+
+.errormsg {
+  text-align: center;
+  padding: 8px;
+}
+
+
